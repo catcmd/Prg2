@@ -40,7 +40,8 @@ public class Contact {
      */
 
     public long getPhone() {
-        return phone;
+
+       return phone;
     }
 
     /**
@@ -59,4 +60,16 @@ public class Contact {
     public void setNext(Contact next) {
         this.next = next;
     }
+
+
+    /**
+     * Liefert einen String zurück der das Obj. beschreibt diese soll den Namen und Telefonnummer
+     * enthalten
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Name: " + name + " Phonenumber: " + phone;
+    }
+
 }
