@@ -70,6 +70,10 @@ public class Adressbook {
         {
             head = null;
         }
+        else if (lastContact == null && currentContact == c)
+        {
+            head = currentContact.getNext();
+        }
         else
         {
             while (currentContact.getNext() != null) //null pointer ref wert

@@ -51,18 +51,22 @@ public class Test {
 
         /**
          * Test: Delete Kontakt
+         */
 
         testAdressbook.delete(testContact2);
         Contact testDeleteSearch = testAdressbook.search("Ferret");
-        if( testErgebnisSearch == null)
+        if( testErgebnisSearch != testContact2)
         {
             System.out.print("True, ");
-            System.out.println("Kontakt " + testErgebnisSearch);
         }
         else
         {
             System.out.print("False, ");
-        }*/
+        }
+        System.out.println("Delete neuer Head Kontakt " + testErgebnisSearch);
+
+
+
 
 
 
