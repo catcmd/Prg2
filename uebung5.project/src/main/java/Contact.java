@@ -57,10 +57,15 @@ public class Contact {
      * @param next
      */
 
-    public void setNext(Contact next) {
+    public void setNext(Contact next)
+    {
         this.next = next;
     }
 
+    public Contact getNext()
+    {
+        return this.next;
+    }
 
     /**
      * Liefert einen String zurück der das Obj. beschreibt diese soll den Namen und Telefonnummer
