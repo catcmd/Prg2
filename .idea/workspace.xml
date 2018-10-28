@@ -813,7 +813,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540749879568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540749963202" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -840,14 +840,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest.getHead">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="uebung5.project_main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QueueTest.getNumContacts">
     <configuration name="QueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="uebung5.project_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -863,6 +856,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QueueTest" />
       <option name="METHOD_NAME" value="getHead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.getNumContacts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uebung5.project_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <option name="METHOD_NAME" value="getNumContacts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -889,19 +892,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.QueueTest.testEnqueue" />
       <item itemvalue="JUnit.QueueTest.dequeue" />
       <item itemvalue="JUnit.QueueTest.getTail" />
       <item itemvalue="JUnit.QueueTest.getHead" />
+      <item itemvalue="JUnit.QueueTest.getNumContacts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueTest.getNumContacts" />
         <item itemvalue="JUnit.QueueTest.getHead" />
         <item itemvalue="JUnit.QueueTest.getTail" />
         <item itemvalue="JUnit.QueueTest.dequeue" />
         <item itemvalue="JUnit.QueueTest.testEnqueue" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>

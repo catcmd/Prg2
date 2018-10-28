@@ -61,6 +61,11 @@ public class QueueTest {
 
     @Test
     public void getNumContacts() {
+        q1.enqueue(c1);
+        q1.enqueue(c2);
+        q1.enqueue(c3);
+
+        assertEquals(3, q1.getNumContacts());
     }
 
     @Test
