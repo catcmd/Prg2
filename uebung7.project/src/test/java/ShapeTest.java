@@ -28,7 +28,6 @@ public class ShapeTest {
     @Test
     public void printElements(){
         for(int i = 0; i < test.length; i++) {
-            test[i].toString();
 
             System.out.println(test[i].toString());
 
