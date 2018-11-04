@@ -3,15 +3,20 @@ public class Shape {
     /**
      * Variablen
      */
-    protected String colour = "red";
-    protected double lineWidth = Math.random()* 2; //Not 0 + 2 cause x*0 = 0
+    protected String colour;// = "red";
+    protected double lineWidth; //Not 0 + 2 cause x*0 = 0
 
     /**
      * Functions
      */
-    Shape(){}
+    public Shape(){
+        lineWidth = Math.random()* 2; //Not 0 + 2 cause x*0 = 0
+        colour = "red";
+    }
 
-    Shape(String colour){}
+    public Shape(String colour){
+        this.colour = colour;
+    }
 
     public String getColour() {
         return colour;
